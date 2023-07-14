@@ -1,0 +1,85 @@
+.letrared {
+  color: #921414;
+  padding-top: 4%;
+  font-size: 150%;
+}
+
+.container-min-p {
+  height: 46px;
+  overflow: hidden;
+  color: white;
+  font-size: 100%;
+}
+.container-min-precio {
+  height: 20px;
+  overflow: hidden;
+  color: white;
+  font-size: 100%;
+}
+
+.cardd {
+  background-color: #000000;
+  border-radius: 0.5em;
+  box-shadow: rgba(160, 160, 160, 0.24) 0px 3px 8px;
+}
+
+.bot1 {
+  background-color: red;
+  border-radius: 10px;
+  padding: 5px 25px 5px 25px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+}
+
+.card-text {
+  color: white;
+}
+
+/* style d eyeiseone */
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2em;
+}
+
+.card1 {
+  background-color: #000000;
+  border-radius: 0.5em;
+  box-shadow: rgba(160, 160, 160, 0.24) 0px 3px 8px;
+}
+
+.container-subtitle-h1 {
+  font-weight: bold;
+  color: #f08c16;
+  font-size: 2.8rem;
+}
+
+.card-img img {
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.container-min-h3 {
+  height: 32px;
+  overflow: hidden;
+  color: var(--color-red);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.container-min-p {
+  height: 46px;
+  overflow: hidden;
+  color: white;
+}
+.container-min-precio {
+  height: 20px;
+  overflow: hidden;
+  color: white;
+}
+
+.card-1 {
+  text-align: center;
+  margin: auto;
+}

@@ -1,0 +1,55 @@
+.frm1 {
+  max-width: 900px;
+  background-color: #201f1f;
+  box-shadow: 1px 1px 3px #000;
+  margin: auto;
+  border-radius: 1px;
+  padding: 1.5rem;
+}
+
+i {
+  font-size: 30px;
+}
+
+.login {
+  /* width: 6%; */
+  font-size: 45px;
+  /* background-color: #f08c16; */
+}
+
+input {
+  margin-top: 0.2em;
+  width: 100%;
+  border: 1px solid #000;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+
+  /* box-shadow: 1px 1px 3px #000; */
+}
+select {
+  margin-top: 0.4em;
+  width: 100%;
+  border: 1px solid #000;
+  border-radius: 0.2rem;
+  /* margin-bottom: 1em; */
+}
+
+.container-register-red {
+  margin-top: 1em;
+  padding: 1em;
+  background-color: darkred;
+  text-align: center;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.container-register-morado {
+  padding: 1em;
+  background-color: rgb(97, 9, 97);
+  text-align: center;
+  /* border: 1px solid black; */
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.letra-blanca {
+  color: white;
+}

@@ -1,0 +1,111 @@
+/*-----------------NAV 1------------------------*/
+
+.main-banner {
+  position: relative;
+  padding: 18em 8em;
+}
+
+.main-banner-data {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.banner-img {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  filter: blur(1px);
+}
+
+.contacto {
+  margin-top: 40px;
+  width: 100%;
+  border: 1px solid;
+  padding: 0.5rem;
+  border-radius: 0.4rem;
+}
+
+.title-h1-white {
+  color: white;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+.title-h2- {
+  color: #f08c16;
+  font-weight: 600;
+  font-size: 35px;
+}
+.container-min-p {
+  color: white;
+}
+
+textarea {
+  min-height: 40px;
+  max-height: 100px;
+}
+
+input {
+  background-color: rgb(118, 24, 206);
+  border-radius: 8px;
+  padding: 4px;
+  width: 25%;
+}
+
+/*-----------------NAV 2------------------------*/
+/*-------------CARD-----------*/
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2em;
+}
+
+.card {
+  background-color: #000000;
+  border-radius: 0.5em;
+  box-shadow: rgba(160, 160, 160, 0.24) 0px 3px 8px;
+}
+
+.card-content {
+  padding: 1em;
+}
+
+.container-subtitle-h1 {
+  font-weight: bold;
+  color: #f08c16;
+  font-size: 2.8rem;
+}
+
+.card-img img {
+  border-radius: 0.5em 0.5em 0 0;
+}
+
+.container-min-h3 {
+  height: 32px;
+  overflow: hidden;
+  color: var(--color-red);
+  font-weight: bold;
+  font-size: 1.8rem;
+}
+
+.container-min-p {
+  height: 46px;
+  overflow: hidden;
+  color: white;
+}
+.container-min-precio {
+  height: 20px;
+  overflow: hidden;
+  color: white;
+}
+
+.card-1 {
+  text-align: center;
+  margin: auto;
+}

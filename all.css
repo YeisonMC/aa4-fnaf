@@ -1,0 +1,40 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+:root {
+  --color-red: #921414;
+  --color-blue: rgb(36, 26, 173);
+  --color-black: rgb(0, 0, 0);
+  --color-blanco: #fff;
+  --color-container: #0e0e0e;
+}
+
+body {
+  background-color: black;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+  color: white;
+}
+
+/*----------------HEADER----------------*/
+.login {
+  /* width: 6%; */
+  font-size: 45px;
+  /* background-color: #f08c16; */
+}
+.container-all {
+  margin: 0.5em 2em;
+}
+
+.header-aqui {
+  background-color: rgb(118, 24, 206);
+  border-radius: 8px;
+  padding: 4px;
+  width: 40%;
+}
